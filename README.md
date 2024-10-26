@@ -5,9 +5,6 @@
 ## Target Data Extraction:
 
   - Date 
-  - country
-  - Client Name
-
 ## Prerequisites
 
 Before you begin, ensure you have installed Anaconda. If not, download it from [Anaconda](https://www.anaconda.com/products/individual).

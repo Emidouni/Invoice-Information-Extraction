@@ -76,5 +76,5 @@ Tesseract OCR is an open-source Optical Character Recognition (OCR) engine used 
   
 ## Usage
 ```
-streamlit run app.py
+streamlit run app2.py
 ```

@@ -49,9 +49,9 @@ After activating the environment, you can proceed with installing other required
 ```bash
 pip install -r requirements.txt
 ```
-In addition to the libraries listed in `requirements.txt`, this project requires Tesseract OCR for text recognition from images.
+In addition to the libraries listed in `requirements.txt`,  to test different OCR tools and to run the OCR.ipynb Jupyter notebook, you need to install OCR.
 
-# Installation Instructions for Tesseract OCR and Poppler
+# Installation Instructions for Tesseract OCR
 
 Tesseract OCR is an open-source Optical Character Recognition (OCR) engine used for text recognition in images.
 

@@ -123,13 +123,7 @@ if uploaded_files:
             # Extract dates
             extracted_dates = extract_earliest_date(text)
             st.session_state.extracted_info = extracted_dates
-        elif st.session_state.selected_info == "Client Name":
-            # Placeholder for client name extraction
-            st.session_state.extracted_info = "Extracted Client Name"
-        elif st.session_state.selected_info == "Client Address":
-            # Placeholder for client address extraction
-            st.session_state.extracted_info = "Extracted Client Address"
-
+            
         # Display the extracted information if available
         if st.session_state.extracted_info:
             st.markdown("### Extracted Required Information")

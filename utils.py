@@ -1,3 +1,4 @@
+# Required Libraries
 import pytesseract
 import os
 from PIL import Image

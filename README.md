@@ -30,7 +30,7 @@ For a more graphical interface, you can use GitHub Desktop:
 - 1.Download and install GitHub Desktop from desktop.github.com.
 - 2.Open GitHub Desktop and sign in to your GitHub account.
 - 3.Click on File > Clone Repository.
-- In the "URL" tab, enter the URL of the repository [https://github.com/TotalEnergiesCode/Extract-General-well-data-from-well-reports-](https://github.com/Emidouni/Invoice-Information-Extraction) and choose the local path where you want to clone the repository.
+- In the "URL" tab, enter the URL of the repository https://github.com/Emidouni/Invoice-Information-Extraction and choose the local path where you want to clone the repository.
 - 4.Click Clone to start the cloning process.
 
 ### Setting Up a Python Environment with Conda

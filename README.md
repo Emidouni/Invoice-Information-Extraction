@@ -73,3 +73,8 @@ Tesseract OCR is an open-source Optical Character Recognition (OCR) engine used 
      pytesseract.pytesseract.tesseract_cmd = r"C:\Path\To\Your\tesseract.exe"
      ```
 - Ensure to replace `C:\Path\To\Your\tesseract.exe` with the correct path to where Tesseract OCR is installed on your system.
+  
+## Usage
+```
+streamlit run app.py
+```

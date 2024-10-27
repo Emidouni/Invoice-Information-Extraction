@@ -1,0 +1,89 @@
+{
+  "_name_or_path": "microsoft/swin-tiny-patch4-window7-224",
+  "architectures": [
+    "SwinForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "depths": [
+    2,
+    2,
+    6,
+    2
+  ],
+  "drop_path_rate": 0.1,
+  "embed_dim": 96,
+  "encoder_stride": 32,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "scientific publication",
+    "1": "form",
+    "2": "presentation",
+    "3": "news article",
+    "4": "advertisement",
+    "5": "invoice",
+    "6": "specification",
+    "7": "memo",
+    "8": "file folder",
+    "9": "letter",
+    "10": "scientific report",
+    "11": "resume",
+    "12": "questionnaire",
+    "13": "email",
+    "14": "handwritten",
+    "15": "budget"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "label2id": {
+    "advertisement": 4,
+    "budget": 15,
+    "email": 13,
+    "file folder": 8,
+    "form": 1,
+    "handwritten": 14,
+    "invoice": 5,
+    "letter": 9,
+    "memo": 7,
+    "news article": 3,
+    "presentation": 2,
+    "questionnaire": 12,
+    "resume": 11,
+    "scientific publication": 0,
+    "scientific report": 10,
+    "specification": 6
+  },
+  "layer_norm_eps": 1e-05,
+  "mlp_ratio": 4.0,
+  "model_type": "swin",
+  "num_channels": 3,
+  "num_heads": [
+    3,
+    6,
+    12,
+    24
+  ],
+  "num_layers": 4,
+  "out_features": [
+    "stage4"
+  ],
+  "out_indices": [
+    4
+  ],
+  "patch_size": 4,
+  "path_norm": true,
+  "problem_type": "single_label_classification",
+  "qkv_bias": true,
+  "stage_names": [
+    "stem",
+    "stage1",
+    "stage2",
+    "stage3",
+    "stage4"
+  ],
+  "torch_dtype": "float32",
+  "transformers_version": "4.44.2",
+  "use_absolute_embeddings": false,
+  "window_size": 7
+}
